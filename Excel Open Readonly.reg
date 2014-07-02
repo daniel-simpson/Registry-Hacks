@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Excel.Sheet.12\shell\OpenRead]
+@="Open (Read-Only)"
+
+[HKEY_CLASSES_ROOT\Excel.Sheet.12\shell\OpenRead\command]
+@="excel.exe /r \"%1\""
+
